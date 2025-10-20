@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Me.jpg"/>
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="Logo">Joe Nickson Lie</a>
+        <nav class="navbar">
+            <a href="#home" class="Nav">Home</a>
+            <a href="#education" class="Nav">Education</a>
+            <a href="#services" class="Nav">Services</a>
+            <a href="#portfolio" class="Nav">Portfolio</a>
+            <a href="#contact" class="Nav">Contact</a>
+        </nav>
+
+        <div class="MHeader">
+            <a href="#home" class="Mlogo">Joe Nickson Lie</a>
+            <div class="MHMenu">
+                <span class="MHNavbar">Home</span>
+                <i class='bx bx-chevron-down Micon'></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="MHNavBagi">
+        <a href="#home" class="MHButtonNav" data-section="Home">Home</a>
+        <a href="#education" class="MHButtonNav" data-section="Education">Education</a>
+        <a href="#services" class="MHButtonNav" data-section="Services">Services</a>
+        <a href="#portfolio" class="MHButtonNav" data-section="Portfolio">Portfolio</a>
+        <a href="#contact" class="MHButtonNav" data-section="Contact">Contact</a>
+    </div>
+
+    <section class="ContainerHome" id="home" data-aos="fade">
+        <div class="HomeBox">
+            <div class="JustDisableMr">
+                <h6>Hi All <span>It's Joe</span></h6>
+                <h5>I am an Designer<span></span></h5>
+                <p>ordinary people and nothing special, do what ever you want, i am more active in individual and L crowd if something make me interesting i will do it until end then cause i didnt know what iam gonna telling you all so i will add Lorem in here. Lorem ipsum, dolor...</p>
+                <div>
+                    <p>My Item:</p>
+                    <div style="display: flex;">
+                        <a target="_blank" class="Icon" style="font-size: 10px;">My CV</a>
+                        <a target="_blank" class="Icon">Hire Me</a>
+                        <a href="#contact" class="Icon">ContactMe</a>
+                    </div>
+                </div>
+                <button class="LebihLanjut" onclick="document.getElementById('education').scrollIntoView()">Lebih Lanjut</button>
+            </div>
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <img src="Img/Me.jpg" alt="Profile" class="HomeImage">
+            </div>
+        </div>
+    </section>
+
+    <section class="ContainerEducation" id="education" data-aos="fade">
+        <div class="EducationBox">
+            <div class="EducationText" style="width: auto;">
+                <h2>Education</h2>
+                <p style="display: flex; justify-content: center;">My educational history. from acient till today</p>
+            </div>
+
+            <div class="EducationMe">
+                <div class="BoxMs">
+                    <img src="Img/sd.png" alt="SD Logo">
+                    <div class="BoxText">
+                        <h3>Sekolah Bunda Mulia/Widuri Indah II</h3>
+                        <p>2012 - 2018</p>
+                    </div>
+                </div>
+
+                <div class="BoxMs">
+                    <img src="Img/smp.png" alt="SMP Logo">
+                    <div class="BoxText">
+                        <h3>SMP Permata Bunda</h3>
+                        <p>2018 - 2021</p>
+                    </div>
+                </div>
+
+                <div class="BoxMs">
+                    <img src="Img/smk.png" alt="SMK">
+                    <div class="BoxText">
+                        <h3>SMK Pelita IV</h3>
+                        <p>2021 - 2024</p>
+                    </div>
+                </div>
+
+                <div class="BoxMs">
+                    <img src="Img/untar.png" alt="untar">
+                    <div class="BoxText">
+                        <h3>University Tarumanagara</h3>
+                        <p>2024 - Present</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ContainerEducation" id="services" data-aos="fade">
+        <div class="EducationBox">
+            <div class="EducationText">
+                <h2>Services</h2>
+                <p style="display: flex; justify-content: center;">Beberapa skill yang sering saya gunakan.</p>
+            </div>
+            <div class="EducationCard">
+                <div class="Card">
+                    <img src="Img/sc1.png" alt="services" class="CardImg">
+                    <div class="Overlay"></div>
+                    <div class="IsiDalamnya">
+                        <h2>FrontEnd</h2>
+                        <p>Membangun tampilan website yang modern, responsif, dan user-friendly menggunakan HTML, CSS, dan Tailwind CSS.</p>
+                        <div class="CardIcon">
+                          <div class="CardIcon">
+                            <div class="IconBar">
+                                <img src="Img/html.png" alt="html" class="DisplaySkill">
+                                <img src="Img/css.png" alt="css" class="DisplaySkill">
+                                <img src="Img/twd.png" alt="Tailwind" class="DisplaySkill">
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Card">
+                    <img src="Img/sc2.png" alt="services" class="CardImg">
+                    <div class="Overlay"></div>
+                    <div class="IsiDalamnya">
+                        <h2>Design | Editing</h2>
+                        <p>desain grafis serta video editing/animasi menggunakan Adobe Premiere Pro, Illustrator, dan After Effects.</p>
+                        <div class="CardIcon">
+                            <div class="IconBar">
+                                <img src="Img/adb.png" alt="Adobe" class="DisplaySkill">
+                                <img src="Img/pr.png" alt="Premiere Pro" class="DisplaySkill">
+                                <img src="Img/ai.png" alt="Adobe Illustrator" class="DisplaySkill">
+                                <img src="Img/ae.png" alt="Adobe After Effects" class="DisplaySkill">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Card">
+                    <img src="Img/sc3.png" alt="services" class="CardImg">
+                    <div class="Overlay"></div>
+                    <div class="IsiDalamnya">
+                        <h2>3D Design</h2>
+                        <p>Membuat model 3D atau desain dan Unity untuk kebutuhan game dan mempermudah desain grafis.</p>
+                        <div class="CardIcon">
+                            <div class="IconBar">
+                                <img src="Img/blender.png" alt="Adobe" class="DisplaySkill">
+                                <img src="Img/unity.png" alt="Premiere Pro" class="DisplaySkill">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Card">
+                    <img src="Img/sc4.jpg" alt="services" class="CardImg">
+                    <div class="Overlay"></div>
+                    <div class="IsiDalamnya">
+                        <h2 style="font-size: x-large;">Pc/Laptop Maintenance</h2>
+                        <p>perawatan dan perbaikan PC atau laptop, mulai dari instalasi software, upgrade hardware, hingga troubleshooting.</p>
+                        <div class="CardIcon">
+                            <div class="IconBar">
+                                <img src="Img/pc1.png" alt="Adobe" class="DisplaySkill">
+                                <img src="Img/pc2.png" alt="Premiere Pro" class="DisplaySkill">
+                                <img src="Img/pc3.png" alt="Adobe Illustrator" class="DisplaySkill">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ContainerEducation" id="portfolio" data-aos="fade">
+        <div class="EducationBox">
+            <div class="EducationText">
+                <h2>Portfolio</h2>
+                <p>Beberapa proyek terbaik yang pernah saya kerjakan, menampilkan kreativitas, desain, dan pengembangan web.</p>
+            </div>
+            <div class="PortfolioContent">
+                <div class="PortfolioDis">
+                    <div class="Portfolioimg">
+                        <img src="Img/Portfolio1.png" alt="Portfolio 1">
+                    </div>
+                    <div class="PortfolioText">
+                        <h2>Website Game</h2>
+                        <p>Berupa game ringan yang bisa dimainkan diberbagai device dan mudah dipahami, game ini adalah sebuah menekan tombol dimana pemain hanya mengklik secepat mungkin dengan waktu yang terbatas.</p>
+                    </div>
+                </div>
+                <div class="PortfolioDis">
+                    <div class="Portfolioimg">
+                        <img src="Img/Portfolio2.png" alt="Portfolio 1">
+                    </div>
+                    <div class="PortfolioText">
+                        <h2>Website Sekolah</h2>
+                        <p>Pembaruan website sekolah kami selepas adanya pembaruan gedung, dimana website kali ini dibuat lebih moderen dan tidak template yang biasa dapat ditemui di berbagai website sekolah.</p>
+                    </div>
+                </div>
+                <div class="PortfolioDis">
+                    <div class="Portfolioimg">
+                        <img src="Img/Portfolio3.png" alt="Portfolio 1">
+                    </div>
+                    <div class="PortfolioText">
+                        <h2>Website Asuransi</h2>
+                        <p>Website asuransi dengan desain glassmorphism dan minimalist. pembuatan glassmorphism ini harus memiliki warna yang cocok dengaannya jika tidak walau terlihat baik tapi aslinya tidak</p>
+                    </div>
+                </div>
+                <div class="PortfolioDis">
+                    <div class="Portfolioimg">
+                        <img src="Img/Portfolio4.png" alt="Portfolio 1">
+                    </div>
+                    <div class="PortfolioText">
+                        <h2>Up Coming</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi nesciunt assumenda accusamus nihil iure dicta nostrum vitae exercitationem sint maxime, laborum in eligendi non odit numquam quo nemo similique! Tempora?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ContainerHome" id="contact" data-aos="fade">
+        <div class="HomeBoxC">
+            <div class="ContactBox">
+                <h2>Contact Me</h2>
+                <p>Anda dapat menghubungi saya melalui email atau sosial media di bawah ini. Saya akan membalas pesan Anda secepat mungkin. <br>Terima Kasih</p>
+                <form class="ContactForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="ContactMe">
+                <div class="BoxMs">
+                    <i class='bx bxl-instagram'></i>
+                    <div class="BoxText">
+                        <h3>Instagram</h3>
+                        <p>@tuknwm</p>
+                    </div>
+                </div>
+                <div class="BoxMs">
+                    <i class='bx bxl-twitter'></i>
+                    <div class="BoxText">
+                        <h3>Twitter</h3>
+                        <p>nahh</p>
+                    </div>
+                </div>
+                <div class="BoxMs">
+                    <i class='bx bxl-github'></i>
+                    <div class="BoxText">
+                        <h3>Github</h3>
+                        <p>Tuknwm</p>
+                    </div>
+                </div>
+               <div class="BoxMs">
+                    <i class='bx bxl-whatsapp'></i>
+                    <div class="BoxText">
+                        <h3>Whatsapp</h3>
+                        <p>Tuknwm</p>
+                    </div>
+                </div>
+               <div class="BoxMs">
+                    <i class='bx bxl-discord'></i>
+                    <div class="BoxText">
+                        <h3>Discord</h3>
+                        <p>Tuknwm</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="Footer">
+        <p>&copy; All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
